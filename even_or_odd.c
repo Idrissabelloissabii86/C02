@@ -1,10 +1,8 @@
 #include <stdio.h>
-int main(){
+main(){
     int n;
-
     // lire l'entier
     scanf("%d", &n);
-
     // verifie si le nombre est pair ou impair
     if (n % 2 == 0){
         printf("%d est un nombre pair.", n);
