@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <local.h>
 
 int main() {
+    // Active le support des caractères locaux (ex : é, è)
+    setlocale(LC_ALL, "");
     int a, b;
 
     // Lecture des deux nombres
