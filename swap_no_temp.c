@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <local.h>
+#include <locale.h>
 
 int main() {
     // Active le support des caractères locaux (ex : é, è)
