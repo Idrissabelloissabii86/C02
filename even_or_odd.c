@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+int main(){
     int n;
     // lire l'entier
     scanf("%d", &n);
