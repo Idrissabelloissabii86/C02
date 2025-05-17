@@ -15,7 +15,7 @@ int main() {
     a = a - b;
 
     // Affichage après échange
-    printf("Après échange : a = %d, b = %d", a, b);
+    printf("Après échange: a = %d, b = %d", a, b);
 
     return 0;
 }
