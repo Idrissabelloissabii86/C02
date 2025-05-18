@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main(){
-    int a;
-            
-            scanf("%d", &a);
+    int n;
 
-            if (a % 2 != 0)
-            {
-                printf("%d est un nombre impaire.\n", a);
-            }
-            else
-            {
-                printf("%d est un nombre paire.\n", a);
-            }
-        }
+    // lire l'entier
+    scanf("%d", &n);
+
+    // verifie si le nombre est pair ou impair
+    if (n % 2 == 0){
+        printf("%d est un nombre pair", n);
+    }else
+    {
+        printf("%d est un nombre impair.", n);
+    }
 return 0;
 }
