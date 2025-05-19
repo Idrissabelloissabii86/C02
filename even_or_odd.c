@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main() {
-    int n, reste;
+    int n;
     // Lire un entier
     scanf("%d", &n);
-    // Division entière par 2
-    reste = n % 2;
+    
     // Vérification du modulo
-    if (reste = 0){
+    if (n % 2 = 0){
         printf("%d est un nombre pair.\n", n);
     }else{
         printf("%d est un nombre impair.\n", n);
