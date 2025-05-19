@@ -1,12 +1,10 @@
 #include <stdio.h>
-int main(){
-    // récupération de la valeur
-    int a;       
-    scanf("%d", &a);
-    // condition de vérificationn du nombre (pair ou impair)
-    if (a % 2 != 0){
-        printf("%d est un nombre impair.\n", a);
-    }else{
-        printf("%d est un nombre pair.\n", a);
-return 0;
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    printf("%d est un nombre %s.\n", n, (n % 2 == 0) ? "pair" : "impair");
+
+    return 0;
 }
