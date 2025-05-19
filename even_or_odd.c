@@ -6,9 +6,9 @@ int main() {
     
     // Vérification du modulo
     if (n % 2 = 0){
-        printf("%d est un nombre pair.\n", n);
+        printf("%d est pair.\n", n);
     }else{
-        printf("%d est un nombre impair.\n", n);
+        printf("%d est impair.\n", n);
     }
     return 0;
 }
