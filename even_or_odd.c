@@ -8,7 +8,6 @@ int main() {
     scanf("%d", &n);
     
     // Division entière par 2
-    quotient = n / 2;
     reste = n % 2;
     
     // Vérification du modulo
