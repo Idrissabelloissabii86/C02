@@ -1,16 +1,11 @@
-#include <stdio.h>
-
 int main() {
+    // récupération de l'entier
     int n;
     scanf("%d", &n);
-
-    if (n == 0)
-        printf("Zéro est un nombre pair.\n");
-    else if (n % 2 == 0)
-        printf("%d est un nombre pair.\n", n);
-    else
-        printf("%d est un nombre impair.\n", n);
-
+    // verification de l'entier
+        if (n % 2 == 0)
+            printf("%d est un nombre pair.\n", n);
+        else
+            printf("%d est un nombre impair.\n", n);
     return 0;
 }
-
