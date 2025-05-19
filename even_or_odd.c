@@ -6,6 +6,7 @@ int main(){
     // condition de vérificationn du nombre (pair ou impair)
     if (a % 2 != 0){
         printf("%d est un nombre impair.\n", a);
-    }
+    }else{
+        printf("%d est un nombre pair.\n", a);
 return 0;
 }
