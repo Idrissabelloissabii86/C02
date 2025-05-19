@@ -4,7 +4,13 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    printf("%d est un nombre %s.\n", n, (n % 2 == 0) ? "pair" : "impair");
+    if (n == 0)
+        printf("Zéro est un nombre pair.\n");
+    else if (n % 2 == 0)
+        printf("%d est un nombre pair.\n", n);
+    else
+        printf("%d est un nombre impair.\n", n);
 
     return 0;
 }
+
