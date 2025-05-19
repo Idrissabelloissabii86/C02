@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    int quotient, reste;
+    int reste;
     
     // Lire un entier
     scanf("%d", &n);
